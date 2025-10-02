@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ALU4bit_anumita.srcs/sources_1/new/ALU_4bit.v" \
+"../../../../ALU4bit_anumita.srcs/sources_1/new/Ripplecarryadder.v" \
+"../../../../ALU4bit_anumita.srcs/sources_1/new/dynnor.v" \
+"../../../../ALU4bit_anumita.srcs/sources_1/new/fulladder.v" \
+"../../../../ALU4bit_anumita.srcs/sources_1/new/halfadder.v" \
+"../../../../ALU4bit_anumita.srcs/sources_1/new/onecomp.v" \
+"../../../../ALU4bit_anumita.srcs/sources_1/new/subtractor.v" \
+"../../../../ALU4bit_anumita.srcs/sources_1/new/the_staticnand.v" \
+"../../../../ALU4bit_anumita.srcs/sources_1/new/twocomp.v" \
+"../../../../ALU4bit_anumita.srcs/sim_1/new/ALU_4bit_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
